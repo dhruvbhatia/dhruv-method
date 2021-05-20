@@ -7,10 +7,6 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0"
-  },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
@@ -33,6 +29,19 @@
       "parser": "babel-eslint"
     },
     "rules": {}
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chart.js": "^2.9.4",
+    "core-js": "^3.12.1",
+    "lodash": "^4.17.21",
+    "primeflex": "^2.0.0",
+    "primeicons": "^4.1.0",
+    "primevue": "^3.5.0",
+    "vue": "^3.0.0",
+    "vue-axios": "^3.2.4",
+    "vue-lodash": "^2.1.2",
+    "vue-router": "^4.0.8"
   },
   "browserslist": [
     "> 1%",
